@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="LightFontText">
+        <attr name="lft_lightColor" format="color" />
+        <attr name="lft_lightWidth" format="dimension" />
+        <attr name="lft_duration" format="integer" />
+        <attr name="lft_repeatCount" format="integer" />
+        <attr name="lft_family" format="enum" >
+            <enum name="DIN_Alternate_Bold" value="0" />
+            <enum name="Herculanum" value="1" />
+        </attr>
+    </declare-styleable>
+</resources>
