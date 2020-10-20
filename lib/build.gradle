@@ -36,7 +36,8 @@ dependencies {
 // maven库配置
 ext {
     GROUP_ID = "com.ypw.code"
-    ARTIFACT_ID = "xxx"
+    ARTIFACT_ID = "light"
     VERSION = "1.0.0"
 }
 apply from: "$rootDir/GradleConfigs/pack-upload.gradle"
+apply from: "$rootDir/GradleConfigs/pack-upload-ali.gradle"
